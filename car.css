@@ -1,0 +1,202 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
+	background: #0000;
+}
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+nav ul {
+	list-style: none;
+	display: flex;
+	padding: 20px;
+}
+ul li {
+	padding: 10px;
+}
+nav ul li:hover {
+	color: black;
+	background-color: white;
+	font-size: 1.3rem;
+	border-radius: 3px;
+	transition: 0.6s ease;
+}
+a {
+	text-decoration: none;
+}
+p {
+	max-width: 30em;
+}
+header {
+	height: 100vh;
+	min-height: 40em;
+	background: url("koenigsegg.jpg") no-repeat center;
+	background-size: cover;
+	background-color: transparent;
+}
+.logo {
+	height: 70px;
+}
+.icon1 {
+	height: 70px;
+}
+nav {
+	display: flex;
+}
+nav li a {
+	transition: 0.5s;
+	padding: 0.3em 0.8em;
+	color: black;
+}
+/* video section */
+
+.video {
+	position: relative;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	width: 95%;
+	height: 497px;
+}
+
+.lamborghini,
+.stats,
+.about,
+.details {
+	text-align: center;
+}
+
+.heading {
+	padding: 20px 0 20px 0;
+}
+.heading2 {
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+.description {
+	padding-bottom: 5px;
+}
+.stats1 {
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+}
+.gauge {
+	display: flex;
+	align-items: flex-end;
+}
+.gauge-1 h2 {
+	text-align: center;
+}
+.speedometer {
+	height: 46px;
+}
+.lamborghini,
+.stats,
+.specs,
+.about {
+	background-color: black;
+}
+
+/* specification section */
+.specs {
+	padding: 0 2em;
+}
+.specs ul {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.specs ul li {
+	padding: 1em 0;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #ccc;
+	align-items: center;
+}
+
+/* tech section */
+.tech {
+	background-color: black;
+	padding: 30px 30px 0 40px;
+}
+.heading {
+	font-size: 3rem;
+}
+
+.tech-container1 {
+	display: flex;
+	justify-content: space-between;
+}
+.info1 {
+	padding-top: 30px;
+	height: 322px;
+	width: 651px;
+	margin-left: 8%;
+	line-height: 24px;
+}
+.d-btn {
+	padding-top: 50px;
+}
+.design-btn,
+input[type="submit"] {
+	cursor: pointer;
+	padding: 12px 18px;
+	font-size: 10px;
+
+	font-family: "montserrat", sans-serif;
+	font-weight: 400;
+	letter-spacing: 3px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.design-btn:hover,
+input[type="submit"]:hover {
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.design-btn {
+	border: solid 2px #fff;
+	background: transparent;
+	color: #fff !important;
+}
+.design-btn:hover {
+	border: solid 2px #fff;
+	background: white;
+	color: #1f1f1f !important;
+	font-size: 0.65rem;
+}
+.img-tech {
+	height: 76%;
+	object-fit: cover;
+	width: 93%;
+}
+.about {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* footer */
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/* media queries */
+@media (max-width: 859px) {
+	nav ul {
+		display: block;
+	}
+}
